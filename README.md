@@ -17,7 +17,7 @@ SQL_PORT=5432
 DATABASE=postgres
 APP_FOLDER=/home/app/web
 ```
-Then you will create a .env.prod.db file fir the database:
+Then you will create a .env.prod.db file for the database:
 ```
 POSTGRES_USER=
 POSTGRES_PASSWORD=
