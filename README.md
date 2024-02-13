@@ -3,7 +3,7 @@
 This project builds a simple website capable of uploading static media files including images and text files. This website is based of the Instagram Tech stack. It is built using Flask and is deployed with Docker containers for Postgres, Gunicorn, and nginx. Using this repo, you can upload an image on http://localhost:13371/upload and then view the images in http://localhost:13371/media/
 
 <img src="demo.gif" />
-The gif shows a different port since I used port forwarding to access http://localhost:13371 on my local computer
+The gif shows a different port since I used port forwarding to forward http://localhost:13371 from my lambda server to http://localhost:3091 on my local computer
 
 ## 1. Environment Files
  
